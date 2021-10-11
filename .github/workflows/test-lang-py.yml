@@ -83,5 +83,5 @@ jobs:
               pwd && \
               ls && \
               cd lang/py && \
-              python3 -m tox -e py && \
+              python3 -m tox -e py38 && \
               deactivate'
